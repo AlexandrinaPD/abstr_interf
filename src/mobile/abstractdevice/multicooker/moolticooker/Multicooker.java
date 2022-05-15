@@ -1,6 +1,6 @@
-package Mobile.abstractdevice.multicooker.moolticooker;
+package mobile.abstractdevice.multicooker.moolticooker;
 
-import Mobile.abstractdevice.multicooker.Multiсooker;
+import mobile.abstractdevice.multicooker.Multiсooker;
 
 public class Multicooker extends Multiсooker {
 

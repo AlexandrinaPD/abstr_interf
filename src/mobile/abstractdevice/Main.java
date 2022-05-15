@@ -1,10 +1,10 @@
-package Mobile.abstractdevice;
+package mobile.abstractdevice;
 
-import Mobile.abstractdevice.multicooker.Oven;
-import Mobile.abstractdevice.multicooker.moolticooker.Multicooker;
-import Mobile.abstractdevice.phone.DialPhone;
-import Mobile.abstractdevice.phone.Mobile;
-import Mobile.abstractdevice.phone.SmartPhone;
+import mobile.abstractdevice.multicooker.Oven;
+import mobile.abstractdevice.multicooker.moolticooker.Multicooker;
+import mobile.abstractdevice.phone.DialPhone;
+import mobile.abstractdevice.phone.Mobile;
+import mobile.abstractdevice.phone.SmartPhone;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package Mobile.abstractdevice.phone;
+package mobile.abstractdevice.phone;
 
-import Mobile.abstractdevice.AbstractDevice;
+import mobile.abstractdevice.AbstractDevice;
 
 public abstract class Phone extends AbstractDevice {
 

@@ -1,6 +1,6 @@
-package Mobile.abstractdevice.phone;
+package mobile.abstractdevice.phone;
 
-import Mobile.abstractdevice.Caller;
+import mobile.abstractdevice.Caller;
 
 public class DialPhone extends Phone implements Caller {
 

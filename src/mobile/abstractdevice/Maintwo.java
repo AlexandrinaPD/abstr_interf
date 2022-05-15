@@ -1,7 +1,7 @@
-package Mobile.abstractdevice;
+package mobile.abstractdevice;
 
-import Mobile.abstractdevice.phone.DialPhone;
-import Mobile.abstractdevice.phone.SmartPhone;
+import mobile.abstractdevice.phone.DialPhone;
+import mobile.abstractdevice.phone.SmartPhone;
 
 public class Maintwo {
     public static void main(String[] args) {

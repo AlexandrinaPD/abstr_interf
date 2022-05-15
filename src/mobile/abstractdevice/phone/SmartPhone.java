@@ -1,11 +1,11 @@
-package Mobile.abstractdevice.phone;
+package mobile.abstractdevice.phone;
 
-import Mobile.abstractdevice.Caller;
-import Mobile.abstractdevice.EmailSender;
+import mobile.abstractdevice.Caller;
+import mobile.abstractdevice.EmailSender;
 
 public class SmartPhone extends Mobile implements Caller, EmailSender {
 
-    public String os;
+    private String os;
 
     public void setOs(String os) {
         this.os = os;

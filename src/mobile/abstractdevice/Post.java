@@ -1,4 +1,4 @@
-package Mobile.abstractdevice;
+package mobile.abstractdevice;
 
 public class Post implements MailSender {
 

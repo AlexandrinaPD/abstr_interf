@@ -1,4 +1,4 @@
-package Mobile.abstractdevice.phone;
+package mobile.abstractdevice.phone;
 
 public class Mobile extends Phone {
 

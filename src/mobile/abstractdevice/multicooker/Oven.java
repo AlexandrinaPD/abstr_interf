@@ -1,4 +1,4 @@
-package Mobile.abstractdevice.multicooker;
+package mobile.abstractdevice.multicooker;
 
 public class Oven extends Multiсooker {
 

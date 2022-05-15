@@ -1,12 +1,10 @@
-package Mobile.abstractdevice;
+package mobile.abstractdevice;
 
 public abstract class AbstractDevice {
 
-    public String name;
-    public String serialNumber;
+    private String name;
+    private String serialNumber;
 
-    public AbstractDevice() {
-    }
 
     public void setName(String name) {
         this.name = name;
