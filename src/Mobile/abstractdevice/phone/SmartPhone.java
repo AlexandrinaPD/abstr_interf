@@ -1,6 +1,9 @@
 package Mobile.abstractdevice.phone;
 
-public class SmartPhone extends Mobile {
+import Mobile.abstractdevice.Caller;
+import Mobile.abstractdevice.EmailSender;
+
+public class SmartPhone extends Mobile implements Caller, EmailSender {
 
     public String os;
 
@@ -18,4 +21,23 @@ public class SmartPhone extends Mobile {
 
     public void display(double v) {
     }
+
+    @Override
+    public String createMail(String chtoto) {
+        System.out.println("Создаем смс: " + chtoto);
+        return chtoto;
+    }
+
+    @Override
+    public void sendMail(String chtoto) {
+        System.out.println("Пишем: " + chtoto);
+
+    }
+
+    @Override
+    public String editMail(String edit) {
+        System.out.println("Редачим ошибки: " + edit);
+        return edit;
+    }
+
 }

@@ -8,7 +8,7 @@ import Mobile.abstractdevice.phone.SmartPhone;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Mobile mob = new Mobile();
         mob.setName("Mobilka");
         mob.setSerialNumber("FG414845dfg");
@@ -25,14 +25,13 @@ public class Main {
         dialPhone.setName("Sumsung");
         dialPhone.setSerialNumber("SV155");
         dialPhone.setHasAnswerPhone(true);
-        System.out.println("Name: "+ dialPhone.name + "\n" + "Serial number: " + dialPhone.serialNumber + "\n" +
+        System.out.println("Name: " + dialPhone.name + "\n" + "Serial number: " + dialPhone.serialNumber + "\n" +
                 "Has answer phone: " + dialPhone.hasAnswerPhone);
         dialPhone.powerOn();
         dialPhone.call();
         dialPhone.autoAnswer();
         dialPhone.powerOff();
         System.out.println();
-
 
 
         SmartPhone smartPhone = new SmartPhone();
@@ -66,7 +65,18 @@ public class Main {
         oven.initTimer(25);
         oven.cook();
         oven.powerOff();
+        System.out.println();
+
+        allSwitchOf(multicooker, oven, dialPhone, smartPhone, mob);
 
 
     }
+
+    public static void allSwitchOf(AbstractDevice... devices) {
+        for (int i = 0; i < devices.length; i++) {
+            devices[i].powerOff();
+
+        }
+    }
+
 }

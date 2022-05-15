@@ -12,7 +12,7 @@ public class Oven extends Multiсooker {
     }
 
     public void initTimer(int time) {
-        if (isOn()){
+        if (isOn()) {
             System.out.println("Таймер установлен на " + time + " минут.");
         }
     }

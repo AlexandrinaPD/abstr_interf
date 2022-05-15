@@ -1,6 +1,8 @@
 package Mobile.abstractdevice.phone;
 
-public class DialPhone extends Phone {
+import Mobile.abstractdevice.Caller;
+
+public class DialPhone extends Phone implements Caller {
 
     public boolean hasAnswerPhone;
 
@@ -26,7 +28,9 @@ public class DialPhone extends Phone {
 
     }
 
-   public void autoAnswer() {
+    public void autoAnswer() {
         System.out.println("Зажимаем кнопку автоответчика, надикотовываем голосовое сообщение, сохраняем. Готово.");
     }
+
+
 }
